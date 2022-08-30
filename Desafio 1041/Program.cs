@@ -12,7 +12,7 @@ namespace Desafio_1041
             x = float.Parse(qd[0], CultureInfo.InvariantCulture);
             y = float.Parse(qd[1], CultureInfo.InvariantCulture);
 
-            if (x == 0 && y == 0.0) 
+            if (x == 0.0 && y == 0.0) 
             {
                 Console.WriteLine("Origem");
             }
