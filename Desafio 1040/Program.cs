@@ -25,6 +25,7 @@ namespace Desafio_1040
             media = soma / (p1 + p2 + p3 + p4);
             
 
+
             if (media >= 7.0)
             {
                 Console.WriteLine("Media: " + media.ToString("F1", CultureInfo.InvariantCulture));
@@ -35,15 +36,17 @@ namespace Desafio_1040
                 Console.WriteLine("Media: " + media.ToString("F1", CultureInfo.InvariantCulture));
                 Console.WriteLine("Aluno reprovado.");
             }
-            else if (media == 5.0 && media <= 6.9)
+            else if (media == 5.0 || media <= 6.9)
             {
                 nota = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 media2 = (nota + media) / 2;
                 Console.WriteLine("Media: " + media.ToString("F1", CultureInfo.InvariantCulture));
                 Console.WriteLine("Aluno em exame.");
                 Console.WriteLine("Nota do exame:" + nota.ToString("F1", CultureInfo.InvariantCulture));
+                Console.WriteLine("Aluno aprovado.");
                 Console.WriteLine("Media final: " + media2.ToString("F1", CultureInfo.InvariantCulture));
             }
+                
             else
             {
                 nota = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -51,8 +54,10 @@ namespace Desafio_1040
                 Console.WriteLine("Media: " + media.ToString("F1", CultureInfo.InvariantCulture));
                 Console.WriteLine("Aluno em exame.");
                 Console.WriteLine("Nota do exame:" + nota.ToString("F1", CultureInfo.InvariantCulture));
+                Console.WriteLine("Aluno reprovado.");
                 Console.WriteLine("Media final: " + media2.ToString("F1", CultureInfo.InvariantCulture));
             }
+            
         }
 
     }
