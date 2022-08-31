@@ -16,11 +16,16 @@ namespace Desafio_1045
 
             if (n1 > n2 && n1 > n3)
                 a = n1;
-                if (n2 > n3)
-                {
-
-                }
+            if (n2 > n3)
+            {
+                b = n2;
+                c = n3;
+            }
+            else
+            {
+                b = 
             }
         }
     }
+}
 }
