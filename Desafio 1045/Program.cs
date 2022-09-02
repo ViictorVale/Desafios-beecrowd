@@ -50,7 +50,6 @@ namespace Desafio_1045
                     b = n1;
                     c = n2;
                 }
-
                 else
                 {
                     b = n2;
@@ -59,15 +58,14 @@ namespace Desafio_1045
             }
             if (a >= b + c)
             {
-                Console.WriteLine("NÃO FORMA TRIANGULO");
+                Console.WriteLine("NAO FORMA TRIANGULO");
             }
             else
             {
-                if (a * a > b * b + c * c)
+                if (a * a == b * b + c * c)
                 {
                     Console.WriteLine("TRIANGULO RETANGULO");
                 }
-
                 else if (a * a > b * b + c * c)
                 {
                     Console.WriteLine("TRIANGULO OBTUSANGULO");
@@ -88,5 +86,3 @@ namespace Desafio_1045
         }
     }
 }
-
-
