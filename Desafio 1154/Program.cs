@@ -10,7 +10,8 @@ namespace Desafio_1154
             idade = int.Parse(Console.ReadLine());
             soma = 0;
             qd = 0;
-            while(idade > 0)
+
+            while (idade > 0)
             {
                 qd = qd + 1;
                 soma = soma + idade;
