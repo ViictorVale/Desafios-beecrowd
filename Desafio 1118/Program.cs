@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace uri1118
+namespace Desafio_1118
 {
     class Program
     {
