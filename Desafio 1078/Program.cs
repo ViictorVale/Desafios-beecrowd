@@ -10,7 +10,7 @@ namespace Desafio_1078
             for (int i = 1; i <= 10; i++)
             {
                 int resultado = i * n;
-                Console.WriteLine(resultado);
+                Console.WriteLine(i + " x " + n + " = " + resultado);
             }
         }
     }
