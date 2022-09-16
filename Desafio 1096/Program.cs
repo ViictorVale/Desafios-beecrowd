@@ -1,15 +1,19 @@
 ﻿using System;
 
-class URI
+namespace Desafio_1096
 {
-    static void Main(string[] args)
+    class Program
     {
-        for (int i = 1; i <= 9; i += 2)
+        static void Main(string[] args)
         {
-            for (int j = 7; j >= 5; j--)
+            for (int i = 1; i <= 9; i += 2)
             {
-                Console.Write("I=" + i + " J=" + j + "\n");
+                for (int j = 7; j >= 5; j--)
+                {
+                    Console.Write("I=" + i + " J=" + j + "\n");
+                }
             }
+
         }
     }
 }
